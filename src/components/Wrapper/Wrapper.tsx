@@ -20,7 +20,7 @@ export const Wrapper = () => {
         dispatchScreenInfo(onNumberClickAC(num));
     }
 
-    const onResetClick = (num: number) => {
+    const onResetClick = () => {
         dispatchScreenInfo(onResetClickAC());
     }
 
