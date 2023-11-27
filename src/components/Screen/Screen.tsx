@@ -9,6 +9,9 @@ type ScreenType = {
 export const Screen: React.FC<ScreenType> = ({value}) => {
     return (
         <div className={'screen'}>
+            <div className={'additionalScreen'}>
+                {value.additionalScreenInfo !== 0 && value.additionalScreenInfo}
+            </div>
             {value.screenInfo}
         </div>
     );

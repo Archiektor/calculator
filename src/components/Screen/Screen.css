@@ -6,9 +6,16 @@
     border-radius: 5px;
     box-sizing: border-box;
     display: flex;
+    flex-direction: column;
     justify-content: end;
     align-items: end;
     color: whitesmoke;
     font-size: 4.5rem;
     font-weight: 500;
+}
+
+.additionalScreen {
+    font-size: 1.75rem;
+    font-weight: 300;
+    color: rgba(245, 245, 245, 0.73);
 }
